@@ -15,7 +15,7 @@ main {
 }
 
 #rightalign {
-    text-align: right;
+    text-align: right;  
 }
 
 h2 {
@@ -28,4 +28,40 @@ footer {
     text-align: center;
     color: white;
     padding: 50px;
+}
+
+@media screen and (min-width: 480px){
+    body > header {
+        background: linear-gradient(to bottom, rgb(3,211,254), black);
+    }
+    h2 {
+        color: rgb(3,211,254);
+    }
+    footer {
+        background-color: rgb(3,211,254);
+    }
+}
+
+@media screen and (min-width: 768px){
+    body > header {
+        background: linear-gradient(to bottom, rgb(4, 118, 141), black);
+    }
+    h2 {
+        color: rgb(4, 118, 141);
+    }
+    footer {
+        background-color: rgb(4, 118, 141);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body > header {
+        background: linear-gradient(to bottom, rgb(4, 130, 155), black);
+    }
+    h2 {
+        color: rgb(3, 130, 155);
+    }
+    footer {
+        background-color: rgb(3, 130, 155);
+    }
 }
